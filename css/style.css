@@ -1,0 +1,22 @@
+* {
+  font-family: Calibri, Arial, Helvetica, sans-serif;
+}
+
+.back-link {
+  margin-top: 1.5em;
+}
+
+.number-table {
+  border: 1px solid black;
+  border-spacing: 2px;
+}
+
+.number-table td {
+  min-width: 1.5em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.divisible-by-four {
+  background-color: lightblue;
+}
