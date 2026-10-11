@@ -17,7 +17,7 @@ highlight.style.fontWeight = "bold";
 
 if (isIntegerInput(firstInput) && isIntegerInput(secondInput)) {
   content.appendChild(document.createTextNode(`${firstInput} + ${secondInput} = `));
-  highlight.textContent = firstNumber + secondNumber;
+  highlight.textContent = String(BigInt(firstNumber) + BigInt(secondNumber));
   content.appendChild(highlight);
 } else {
   highlight.textContent = "Error!";

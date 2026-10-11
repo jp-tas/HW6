@@ -7,6 +7,8 @@ const bodyNodes = () => {
   }
 };
 
+// Remove this script's own element before displaying the exercise body.
+document.currentScript.remove();
 bodyNodes();
 
 // Add navigation after displaying the original eleven body nodes.
